@@ -19,10 +19,10 @@
     <header>
         <!-- navbar -->
        
-        <nav class="navbar navbar-expand-lg bg-black text-light">
+        <nav class="navbar navbar-expand-lg bg-light text-light border">
             <div class="container-fluid">
-                <i class="fa-solid fa-burger fs-4"></i>
-                <a class="navbar-brand text-light fs-4" href="#">Food YUM</a>
+                <i class="fa-solid fa-burger fs-4"><a class="navbar-brand text-black fs-4" href="#">Food YUM</a></i>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -31,15 +31,43 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-
-
+                       
                     </ul>
-                   
+                    
+                    <!-- <span class="navbar-text text-light">
+                        <i class="fa-regular fa-user"></i>
+                      </span> -->
+                   <div class="navbar-text d-flex">
+                    <span class="nav-end">
+                       <span class="user">
+                        <i class="fa-regular fa-user fs-5 "></i>
+                        <a href="#">Aaliyan</a>
+                       </span>
+                
+                        <ul class="navbar-nav" style="margin-left: 18px;">
+                            <li class="nav-item dropdown">
+                              <button class="btn btn-black dropdown-toggle text-black" data-bs-toggle="dropdown" aria-expanded="false">
+                               <span>
+                                <i class="fa-solid fa-globe"></i>
+                                EN
+                               </span>
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-light">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                              
+                              </ul>
+                              </ul>
+
+                              <span class="cart" style="margin-left: 15px;">
+                                <i class="fa-solid fa-bag-shopping fs-5"></i>
+                              </span>
+
+                    </span>
+                   </div>
+
+
                 </div>
             </div>
         </nav>
