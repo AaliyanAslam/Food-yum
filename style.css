@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "railway";
+    src: url("fonts/static/Raleway-Black.ttf");
+}
+
+
+
+
+
+.container-fluid i {
+cursor: pointer;
+
+
+
+}
+
+
+
+ul li a{
+
+    color: white !important;;
+}
+
+.navbar-brand{
+
+    font-family: "railway";
+}
+
+.navigation {
+
+
+}
+
+.nav-item{
+text-align: center;
+
+
+}
