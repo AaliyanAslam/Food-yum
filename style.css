@@ -9,6 +9,14 @@ box-sizing: border-box;
     src: url("fonts/static/Raleway-Black.ttf");
 }
 
+.heading h1 {
+
+    font-family: "railway";
+}
+
+
+
+
 
 
 
